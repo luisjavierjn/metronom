@@ -1,0 +1,3 @@
+rootProject.name = 'tic-tac-toe'
+include ':tic-tac-toe-app'
+project(':tic-tac-toe-app').projectDir = "$rootDir/app" as File
